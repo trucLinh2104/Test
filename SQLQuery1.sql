@@ -1,4 +1,5 @@
-﻿use QuanCaPhe
+﻿drop database
+use QuanCaPhe
 --- tạo khóa chính
 alter table QLNuoc
 add constraint PK_maNuoc primary key (maNuoc)
